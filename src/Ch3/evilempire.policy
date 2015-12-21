@@ -1,0 +1,7 @@
+/* AUTOMATICALLY GENERATED ON Mon Dec 21 15:08:23 MST 2015*/
+/* DO NOT EDIT */
+
+grant codeBase "file:/c:/code/LearningJava/" {
+  permission java.net.SocketPermission "207.46.131.13", "connect";
+};
+
