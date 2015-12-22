@@ -1,6 +1,5 @@
 package Ch2;
 
-import java.awt.PopupMenu;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,11 +10,11 @@ import javax.swing.JComponent;
 
 class HelloComponent3 extends JComponent implements MouseMotionListener, ActionListener
 {
-	private String message;
+	private final String message;
 	private int messageX = 125, messageY = 95;
-	private JButton button;
+	private final JButton button;
 	private int colorIndex;
-	private static Color[] someColors =
+	private static final Color[] someColors =
 	{
 		Color.BLACK, Color.BLUE, Color.CYAN, Color.DARK_GRAY, Color.GREEN
 	};

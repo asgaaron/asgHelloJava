@@ -1,7 +1,6 @@
 package Ch2;
 
 import java.awt.Graphics;
-import java.awt.PopupMenu;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 import javax.swing.JComponent;

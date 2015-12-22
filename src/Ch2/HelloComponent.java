@@ -5,9 +5,9 @@ import javax.swing.JComponent;
 
 public class HelloComponent extends JComponent
 {
-	private static final int xCoord = 125;
-	private static final int yCoord = 95;
-	private static String input;
+	private final int xCoord = 125;
+	private final int yCoord = 95;
+	private String input;
 
 	public HelloComponent(String input)
 	{
