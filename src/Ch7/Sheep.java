@@ -6,6 +6,7 @@ public class Sheep implements Cloneable
 {
 	HashMap flock = new HashMap();
 
+	@Override
 	public Sheep clone()
 	{
 		try
