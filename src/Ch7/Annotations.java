@@ -4,6 +4,12 @@ public class Annotations
 {
 }
 
+/**
+ * comments!
+ *
+ * @author agardner
+ * @deprecated
+ */
 @Deprecated
 class OldClass
 {
