@@ -11,6 +11,7 @@ public class SheepDriver
 			System.out.println("They are equivalent,");
 		if (!(one == anotherOne))
 			System.out.println("but two seperate objects!");
+
 	}
 
 	private void classFinder()
@@ -27,10 +28,7 @@ public class SheepDriver
 		{
 			String s2 = (String) stringClass.newInstance();
 		}
-		catch (InstantiationException e)
-		{
-		}
-		catch (IllegalAccessException e)
+		catch (InstantiationException | IllegalAccessException e)
 		{
 		}
 
