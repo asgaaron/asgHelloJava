@@ -1,7 +1,6 @@
 package Ch9.forkjoin;
 
 import java.awt.image.BufferedImage;
-import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveAction;
 
 class MandelbrotTask extends RecursiveAction
